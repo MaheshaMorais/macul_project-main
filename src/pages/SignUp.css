@@ -1,0 +1,92 @@
+
+.signup-container{
+  width: 100%;
+  background: #fff;
+  margin: 2rem 0;
+}
+.signup-container .signup-content{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.signup-container .signup-content .sing-up-left img{
+  height: 70vh;
+}
+.signup-container .signup-content .sing-up-right .signup-title-black{
+  font-size: 5rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.signup-title-red{
+  color: #c31e39;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area{
+  margin: 2rem 10rem;
+  align-items: center;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .google-signup-background{
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .google-signup-background:hover{
+  cursor: pointer;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .google-signup-background img{
+  height: 1.5rem;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .google-signup-background .google-signup-text{
+  color: #fff;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .or-text-line{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .or-text-line .or-red-line{
+  width: 100%;
+  height: 2px;
+  background: #c31e39;
+}
+
+.signup-container .signup-content .sing-up-right .signup-btn-area .email-signup-background{
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  border: 2px solid #c31e39;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  margin-bottom: 3rem;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .email-signup-background:hover{
+  cursor: pointer;
+  background: #c31e39;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .email-signup-background .email-signup-text{
+  color: #000;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .sign-up-footer-text-area{
+  width: 100%;
+  text-align: center;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .sign-up-footer-text{
+  color: #000;
+  font-size: .8rem;
+}
+.signup-container .signup-content .sing-up-right .signup-btn-area .sign-up-footer-text .sign-up-footer-link{
+  color: #c31e39;
+  padding: 0;
+}

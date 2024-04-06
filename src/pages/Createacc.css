@@ -1,0 +1,113 @@
+.create-account-container{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 2rem;
+}
+.create-account-container .create-account-content .create-account-title-container{
+    margin-bottom: 1rem;
+}
+.create-account-container .create-account-content .create-account-title-container .create-account-title-black{
+    font-size: 5rem;
+    font-weight: 600;
+    color: #000;
+}
+.create-account-container .create-account-content .create-account-title-container .create-account-title-red{
+    color: #c31e39;
+}
+.create-account-container .create-account-content .create-account-form-and-img-container{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.create-account-container .create-account-content .create-account-form-and-img-container .create-account-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.create-account-container .create-account-content .create-account-form-and-img-container .create-account-left .create-account-form-name-username{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.create-acount-form-lable-and-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.create-account-input-lable{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.create-account-input-box{
+    width: 100%;
+    background: none;
+    border: 2px solid #c31e39;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+}
+.create-account-container .create-account-content .create-account-form-and-img-container .create-account-left .create-account-check-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5rem;
+    accent-color:#c31e39;
+  }
+  .create-account-check-box {
+    width: 80%;
+  }
+  .create-account-check-box .checkbox-text{
+    font-size: .8rem;
+  }
+.create-account-btn{
+    width: 100%;
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 1rem 2rem;
+
+  }
+  .create-account-btn:hover{
+    cursor: pointer;
+    background: #c31e39;
+  }
+ .create-account-btn .create-account-btn-text{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+.create-account-already-have-account{
+    text-align: center;
+}
+.create-account-already-have-account .already-have-account-text{
+    font-size: .8rem;
+}
+.link-text{
+    color: #c31e39;
+    padding: 0;
+  }
+.crete-account-footer-text-area{
+    width: 50%;
+  }
+.crete-account-footer-text-area .crete-account-footer-text{
+    font-size: .7rem;
+}
+
+.create-account-container .create-account-content .create-account-form-and-img-container .create-account-right{
+    flex: 1;
+    width: 100%;
+}
+.create-account-container .create-account-content .create-account-form-and-img-container .create-account-right img{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}

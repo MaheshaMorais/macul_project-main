@@ -1,0 +1,30 @@
+/* TermsOfUse.css */
+
+.terms-container {
+    padding: 20px;
+}
+
+.terms-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.red-text {
+    color: #C31E39; /* Red color for "Conditions" */
+}
+
+.subtopic {
+    background-color: #FFECE5; /* Background color */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.subtopic-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtopic-paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+}

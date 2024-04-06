@@ -1,0 +1,91 @@
+/* Navbar.css */
+.navbar-container{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: .5rem 0;
+    overflow-x: hidden;
+}
+.content-container{
+    padding: 0;
+}
+.navbar-container .nav-bar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar-container .nav-bar-content .nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-container .nav-bar-content .nav-link:hover{
+    color: #c31e39;
+
+}
+.navbar-container .nav-bar-content .navbar-logo{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #c31e39;
+}
+.navbar-container .nav-bar-content .navbar-links{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navbar-container .nav-bar-content .search-login-signup{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.navbar-container .nav-bar-content .search-login-signup .search-bar-box{
+    background-color: #ffffff19;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+.navbar-container .nav-bar-content .search-login-signup .search-bar-box .searchicon{
+    font-size: 1.2rem;
+    margin-left: .5rem;
+}
+.navbar-container .nav-bar-content .search-login-signup .search-bar-box .search-input{
+    width: 80%;
+    margin-left: .5rem;
+    background: none;
+    color: #fff;
+}
+.navbar-container .nav-bar-content .signup-button{
+    width: 20%;
+    color: #fff;
+    text-decoration: none;
+    padding: .3rem .5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar-container .nav-bar-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-container .nav-bar-content .navbar-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .navbar-container .nav-bar-content .search-login-signup {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .navbar-container .nav-bar-content .search-login-signup .search-bar-box {
+        width: 100%;
+    }
+
+    .navbar-container .nav-bar-content .search-login-signup .signup-button {
+        width: 100%;
+        text-align: center;
+    }
+}

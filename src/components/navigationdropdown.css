@@ -1,0 +1,64 @@
+.drop-down-area{
+    position: absolute;
+    top: 8rem;
+    right: .5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0rem 0.1rem 1rem rgba(0, 0, 0, 0.67);
+    border-radius: 1rem;
+    text-align: center;
+}
+.drop-down-area .drop-down-content{
+    padding: 2rem 1rem;
+}
+.drop-down-area .drop-down-content ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+.drop-down-area .drop-down-content ul .user-proflie-links{
+    background-color: #c31e3a78;
+    padding: .4rem 0;
+    border-radius: .5rem;
+    width: 12rem;
+    font-weight: 500;
+    font-size: .8rem;
+    color: #000;
+    cursor: pointer;
+}
+.drop-down-area .drop-down-content ul .user-proflie-links:hover{
+    background-color: #c31e3ad5;
+}
+.drop-down-area .drop-down-content ul .user-proflie-links .user-proflie-link{
+    padding: .4rem 0;
+    border-radius: .5rem;
+    width: 12rem;
+    font-weight: 500;
+    font-size: .8rem;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.drop-down-area .drop-down-content ul .profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.drop-down-area .drop-down-content ul .profile-details .profile-icon{
+    font-size: 5rem;
+    color: #000;
+}
+.drop-down-area .drop-down-content ul .profile-details .user-name{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+}
+.drop-down-area .drop-down-content ul .profile-details .user-email{
+    font-size: .8rem;
+    color: #000;
+}

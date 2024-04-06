@@ -1,0 +1,239 @@
+
+@media only screen and (max-width: 768px) {
+    .signin-container {
+      flex-direction: column; 
+      padding: 10px;
+    }
+  
+    .left img {
+      width: 100%; 
+      margin-right: 0; 
+    }
+  
+    .google-signin input {
+      width: 100%; 
+    }
+  
+    .google-signin img {
+      margin-left: 0; 
+      margin-top: 10px; 
+      position: relative; 
+    }
+  
+    .or-line::before,
+    .or-line::after {
+      width: 30%; 
+    }
+  
+    .or-line::before {
+      right: calc(50% + 5px); 
+    }
+  
+    .or-line::after {
+      left: calc(50% + 5px); 
+    }
+  
+    .forgot-password {
+      float: none;
+      text-align: center; 
+      margin-top: 10px;
+    }
+  
+    .sign-in-button {
+      width: 100%; 
+    }
+  
+    a {
+      display: block; 
+      margin: 10px auto; 
+    }
+  }
+  
+
+  .signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  .left img {
+    width: 400px; 
+    height: auto;
+    float: left; /* Align the image to the left */
+    margin-right: 200px; 
+  }
+  
+  .right {
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .right p {
+    font-size: 60px;
+    padding-bottom: 0px;
+  }
+  
+  .black-text {
+    color: #000000;
+  }
+  
+  .red-text {
+    color: #C31E39;
+  }
+  
+  .google-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .google-signin input {
+    padding: 10px;
+    border: 1px solid #C31E39;
+    border-radius: 15px;
+    width: 490px;
+  }
+  
+  .or-line {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .or-line::before,
+  .or-line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 20%; /* Adjust the width of the lines */
+    height: 1px;
+    background-color: red;
+  }
+  
+  .or-line::before {
+    right: calc(80% + 4px); /* Adjust the position of the first line */
+  }
+  
+  .or-line::after {
+    left: calc(80% + 4px); /* Adjust the position of the second line */
+  }
+  
+  .google-signin img {
+    width: 25px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 350px;
+    position: absolute;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C31E39;
+    border-radius: 15px;
+  }
+  .input-group a{
+  padding-top: 10px;
+  
+}
+  .forgot-password {
+    float: right;
+    font-size: 15px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: -70px;
+    padding-right: 6px;
+    display: flex;
+  }
+  
+  .forgot-password:hover {
+   text-decoration: none;
+  }
+  
+  .signin-button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(243, 237, 237);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 409px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    text-align: center;
+    width: 50px;
+    padding-right: 30px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .signin-container {
+      flex-direction: column; /* Change to column layout on small screens */
+    }
+  
+    .left img {
+      width: 100%; /* Make the image responsive */
+      margin-right: 0; /* Remove margin */
+    }
+  
+    .right p {
+      font-size: 10vw; /* Adjusted font size for smaller screens */
+    }
+  
+    .google-signin input {
+      width: 90%; /* Adjusted width for smaller screens */
+      padding: 2.5vw; /* Adjusted padding for smaller screens */
+      border-radius: 3vw; /* Adjusted border radius for smaller screens */
+    }
+  
+    .or-line::before,
+    .or-line::after {
+      width: 30%; /* Adjusted width for smaller screens */
+      display: none;
+    }
+  
+    .input-group label {
+      font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    }
+  
+    .input-group input {
+      padding: 2.5vw; /* Adjusted padding for smaller screens */
+      border-radius: 3vw; /* Adjusted border radius for smaller screens */
+    }
+  
+    .input-group a {
+      margin-top: 2.5vw; /* Adjusted margin top for smaller screens */
+      font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    }
+  
+    .forgot-password {
+      margin-top: 2.5vw; /* Adjusted margin top for smaller screens */
+      font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    }
+  
+    .signin-button {
+      padding: 4vw; /* Adjusted padding for smaller screens */
+      font-size: 4vw; /* Adjusted font size for smaller screens */
+      margin-top: 2.5vw; /* Adjusted margin top for smaller screens */
+      width: 90%; /* Adjusted width for smaller screens */
+    }
+  }
+  

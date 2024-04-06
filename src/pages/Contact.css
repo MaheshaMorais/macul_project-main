@@ -1,0 +1,104 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFECE5;
+    padding: 40px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.contact-form h2 {
+    color: #333333;
+    font-size: 60px;
+    margin-bottom: 40px;
+    padding-top: -20px;
+
+}
+
+.red-text {
+    color: #C31E39;
+}
+
+.input-group2 {
+    margin-bottom: 20px;
+}
+
+.input-group2 label {
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.input-group2 input,
+.input-group2 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C31E39;
+    border-radius: 5px;
+}
+
+.input-group2 textarea {
+    resize: vertical;
+}
+.contact-image img {
+    max-width: 60%; /* Set the maximum width of the image to 100% of its container */
+    height: auto; /* Maintain the aspect ratio */
+    padding-left: 100px;
+}
+
+
+.button-group {
+    display: flex;
+}
+
+.clear-button,
+.send-button {
+    padding: 10px 20px;
+    background-color: #C31E39;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.clear-button:hover,
+.send-button:hover {
+    background-color: #960E29;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column; /* Change to column layout on smaller screens */
+        padding: 30px; /* Adjust padding for smaller screens */
+    }
+    
+    .contact-form {
+        width: 100%; /* Make the form full width */
+        padding: 0; /* Remove padding */
+    }
+    
+    .contact-form h2 {
+        font-size: 40px; /* Decrease font size for smaller screens */
+        margin-bottom: 20px; /* Decrease margin bottom */
+        text-align: center; /* Center align heading */
+    }
+    
+    .contact-image img {
+        max-width: 100%; /* Set image width to 100% of its container */
+        padding-left: 0; /* Remove left padding */
+        padding-top: 10px;
+    }
+}
+

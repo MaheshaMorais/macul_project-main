@@ -1,0 +1,31 @@
+
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+
+.content-container{
+  width: 90%;
+  margin: 0 auto;
+}
+.btn{
+  background: #c31e39;
+  padding: .2rem .5rem;
+  border-radius: 1rem;
+  border: 2px solid #c31e39;
+}
+.btn:hover{
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn:hover a{
+  color: #fff !important;
+}

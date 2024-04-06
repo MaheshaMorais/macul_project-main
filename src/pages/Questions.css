@@ -1,0 +1,145 @@
+.gallery{
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.gallery h1{
+    padding-top: 10px;
+  padding-left: 600px;
+}
+
+
+.gallery .box-container {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  
+  .gallery .box-container .box{
+    height: 15rem;
+    flex:1 1 30rem;
+    border:0.1rem solid #e2b7b7;
+    box-shadow: 0 .5rem 1rem rgba(219, 199, 199, 0.1);
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery .box-container .box:hover{
+    height: 15rem;
+    flex:1 1 30rem;
+    border:0.1rem solid #eeb9b9;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(0.625rem);
+  }
+  
+  .gallery .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .gallery .box-container .box .content{
+    position: absolute;
+    top:-100%; left:0;
+    height: 100%;
+    width:100%;
+    background:rgba(255,255,255,.9);
+    padding:2rem;
+    text-align: center;
+  }
+  
+  .gallery .box-container .box .content h3{
+    font-size:1.2rem;
+    color:#333;
+  }
+  
+  .gallery .box-container .box .content p{
+    font-size: 1.2rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .gallery .box-container .box:hover .content{
+    top:0;
+  }
+  .input-group5 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.input-group5 label {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.input-group5 input,
+.input-group5 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C31E39;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.input-group5 textarea {
+    resize: vertical;
+}
+
+  @media screen and (max-width: 768px) {
+    .gallery h1 {
+      padding-left: 5%;
+    }
+  
+    .gallery .box-container {
+      
+      width: 100%;
+    }
+    
+    .gallery .box-container .box .content {
+      padding: 1rem;
+    }
+  
+    .gallery .box-container .box .content h3 {
+      font-size: 0.5rem;
+      padding-top: 0.1rem;
+    }
+  
+    .gallery .box-container .box .content p {
+
+      font-size: 0.6rem;
+    
+    }
+
+    .gallery .box-container .box .content h3{
+        font-size:0.8rem;
+        color:#333;
+      }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .gallery h1 {
+      padding-left: 3%;
+    }
+  
+    .gallery .box-container {
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+  
+    .gallery .box-container .box {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
+  }
