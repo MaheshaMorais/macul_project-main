@@ -1,43 +1,50 @@
 import React from "react";
-import './Contact.css'
-import contactimg from "../assets/Contact.png";
+import './Contact.css';
 
-const Contact =() =>{
-    return(
-     
-
-        <div className="contact-container">
-        <div className="contact-form">
-            <h2>Contact <span className="red-text">us</span></h2>
-            <div className="input-group2">
-                <label htmlFor="username">User Name</label>
-                <input type="text" id="username" placeholder="Enter your user name" />
-            </div>
-            <div className="input-group2">
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email" />
-            </div>
-            <div className="input-group2">
-                <label htmlFor="problem">Report Problem</label>
-                <textarea id="problem" rows="4" placeholder="Describe the problem"></textarea>
-            </div>
-            <div className="button-group2">
-                <button className="clear-button">Clear</button>
-                <button className="send-button">Send</button>
-            </div>
+const Contact = () => {
+  return (
+    <div className="container">
+      <div className="content">
+        <div className="left-side">
+          <div className="details">
+            <i className="fas fa-map-marker-alt"></i>
+            <div className="topic">Address</div>
+            <div className="text-one">No 123,De Mel Road</div>
+            <div className="text-two">Colombo 07, Sri Lanka</div>
+          </div>
+          <div className="details">
+            <i className="fas fa-phone-alt"></i>
+            <div className="topic">Phone</div>
+            <div className="text-one">+94774568469</div>
+            <div className="text-two">+94712142002</div>
+          </div>
+          <div className="details">
+            <i className="fas fa-envelope"></i>
+            <div className="topic">Email</div>
+            <div className="text-one">maheshamorais@gmail.com</div>
+            <div className="text-two">wikum.chamith@gmail.com</div>
+          </div>
         </div>
-        <div className="contact-image">
-            <img src={contactimg} alt="Contact" />
+        <div className="right-side">
+          <div className="topic-text">Send us a message</div>
+          <form action="#">
+            <div className="input-box">
+              <input type="text" placeholder="Enter your name" />
+            </div>
+            <div className="input-box">
+              <input type="email" placeholder="Enter your email" />
+            </div>
+            <div className="input-box message-box">
+              <textarea placeholder="Enter your message"></textarea>
+            </div>
+            <div className="button">
+              <input type="button" value="Send Now" />
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-);
-
-
-
-
-   
-
-
+  );
 }
 
 export default Contact;
